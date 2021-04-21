@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  font-size: 24px;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+button {
+  border: none;
+  padding: 14px 34px;
+  color: #f2f2f2;
+  cursor: pointer;
+  background-color: #1c1717;
+}
+
+button:hover {
+  -webkit-transform: translate(0.98);
+          transform: translate(0.98);
+}
+
+img {
+  border-radius: 50%;
+  height: auto;
+  width: 100%;
+  max-width: 150px;
+}
+
+#app {
+  text-align: center;
+  height: 50vh;
+  margin: 10rem;
+}
+
+.male {
+  background-color: #0062a8;
+  border: 3px solid #0062a8;
+}
+
+.female {
+  background-color: #cc1e6a;
+  border: 3px solid #cc1e6a;
+}
+/*# sourceMappingURL=main.css.map */

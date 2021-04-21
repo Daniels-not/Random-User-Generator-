@@ -1,0 +1,18 @@
+@import '../utilities/variables';
+@import '../utilities/functions';
+
+%btn{
+    border: none;
+    padding: 14px 34px;
+    color:hsl(0, 0%, 95%);
+    cursor: pointer;
+    background-color: get_color(btn-principal);
+
+    &:hover{
+        transform: translate(0.98);
+    }
+}
+
+button{
+    @extend %btn;
+}

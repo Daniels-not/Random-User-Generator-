@@ -1,0 +1,9 @@
+@import '../utilities/variables';
+
+@function get_color($color-name){
+    @return map-get($colors, $color-name);
+}
+
+@function generes($color-name){
+    @return map-get($genere_color, $color-name);
+}

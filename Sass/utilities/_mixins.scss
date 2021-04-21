@@ -1,0 +1,12 @@
+@mixin center_all { // align all the content center
+    text-align: center;
+}
+
+@mixin align { // align the content in the middle
+    height: 50vh;
+    margin: 10rem;
+}
+
+@mixin space { // space between the tags
+    margin-bottom: 10px;
+}

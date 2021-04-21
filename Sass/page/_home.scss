@@ -1,0 +1,12 @@
+@import '../utilities/variables';
+@import '../utilities/functions';
+
+.male{
+    background-color: generes(male);
+    border: 3px solid map-get($genere_color, male);
+}
+
+.female{
+    background-color: generes(female);
+    border: 3px solid  map-get($genere_color, female);
+}

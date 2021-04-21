@@ -1,0 +1,22 @@
+@import '../utilities/variables';
+@import '../utilities/functions';
+@import '../utilities/mixins';
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h3{
+    font-size: 24px;
+    color: get_color(third);
+    @include space;
+}
+
+h2{
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: get_color(second);
+    @include space;
+}
+
+

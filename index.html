@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ramdom User Generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Sass/main.css">
+    </head>
+    <body>
+        <div id="app">
+            <img :src="picture" :alt="`${firstname} ${lastname}`" :class="gender" />
+            <h3>Hello my name is: </h3>
+            <h2>{{firstname}} {{lastname}}</h2>
+            <h2>{{email}}</h2>
+            <button :class="gender" v-on:click="getUser()">Get Ramdom User</button>
+        </div>
+        <script src="https://unpkg.com/vue@3.0.5"></script>
+        <script src="Javascript/app.js"></script>
+    </body>
+</html>

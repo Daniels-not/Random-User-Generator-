@@ -1,0 +1,6 @@
+@import '../utilities/mixins';
+
+#app{
+    @include center_all;
+    @include align;
+}
